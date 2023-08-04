@@ -2,8 +2,8 @@ library dropdown_multi_select;
 
 import 'package:flutter/material.dart';
 
-class MultiSelectDropdown extends StatefulWidget {
-  const MultiSelectDropdown({
+class DropdownMultiSelect extends StatefulWidget {
+  const DropdownMultiSelect({
     Key? key,
     required this.dropdownValueList,
     required this.selectedTileColor,
@@ -34,10 +34,10 @@ class MultiSelectDropdown extends StatefulWidget {
   final TextStyle? selectedItemTextStyle;
 
   @override
-  State<MultiSelectDropdown> createState() => _MultiSelectDropdownState();
+  State<DropdownMultiSelect> createState() => _DropdownMultiSelectState();
 }
 
-class _MultiSelectDropdownState extends State<MultiSelectDropdown> {
+class _DropdownMultiSelectState extends State<DropdownMultiSelect> {
   late List<String> list;
   late List<String> listOFSelectedTeam = [];
   late Color selectedTileColor;

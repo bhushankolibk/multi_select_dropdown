@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: MultiSelectDropdown(
+              child: DropdownMultiSelect(
                 dropdownValueList: countries,
                 selectedTileColor: Colors.lightBlue,
                 hintStyle: const TextStyle(
