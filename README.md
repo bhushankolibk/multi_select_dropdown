@@ -1,5 +1,5 @@
-# multi_select_dropdown
-# Multiselect Dropdown for Flutter
+# drop_down_multiselect
+
 
 A Flutter package that provides a customizable multiselect dropdown widget.
 
@@ -12,7 +12,7 @@ A Flutter package that provides a customizable multiselect dropdown widget.
 
 ## Getting Started
 
-To use this package, add `multiselect_dropdown` as a dependency in your `pubspec.yaml` file.
+To use this package, add `dropdown_multi_select` as a dependency in your `pubspec.yaml` file.
 
 dependencies:
   flutter:
@@ -23,11 +23,11 @@ USAGE:
 
 1. Import the package in your Dart file.
 
-    import 'package:multi_select_dropdown/multi_select_dropdown.dart';
+    import 'package:dropdown_multi_select/dropdown_multi_select.dart';
 
 2. Use the MultiSelectDropdown widget.
 
-   MultiSelectDropdown(
+             DropdownMultiSelect(
                 dropdownValueList: countries,
                 selectedTileColor: Colors.lightBlue,
                 hintStyle: const TextStyle(
