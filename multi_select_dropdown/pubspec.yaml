@@ -1,5 +1,5 @@
-name: multi_select_dropdown
-description: A new Flutter package project.
+name: dropdown_multi_select
+description: A Flutter package that provides a customizable multiselect dropdown widget.
 version: 0.0.1
 homepage: https://github.com/bhushankolibk/multi_select_dropdown
 

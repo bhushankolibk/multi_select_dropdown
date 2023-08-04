@@ -17,7 +17,7 @@ To use this package, add `multiselect_dropdown` as a dependency in your `pubspec
 dependencies:
   flutter:
     sdk: flutter
-  multi_select_dropdown: ^1.0.0 # Replace with the latest version
+    dropdown_multi_select: ^1.0.0 # Replace with the latest version
 
 USAGE:
 
