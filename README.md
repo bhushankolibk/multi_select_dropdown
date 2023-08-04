@@ -27,7 +27,7 @@ USAGE:
 
 2. Use the MultiSelectDropdown widget.
 
-             MultiSelectDropdown(
+             DropdownMultiSelect(
                 dropdownValueList: countries,
                 selectedTileColor: Colors.lightBlue,
                 hintStyle: const TextStyle(
